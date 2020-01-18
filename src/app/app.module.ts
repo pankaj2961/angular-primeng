@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms'
 
 import { PrimeNgExternalModules } from './external-modules/primeng-modules'
+import { AngularMaterialExternalModules } from './external-modules/angular-material-modules'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PrimeNgExternalModules } from './external-modules/primeng-modules'
     BrowserAnimationsModule,
     AppRoutingModule,
     FormsModule,
-    PrimeNgExternalModules
+    PrimeNgExternalModules,
+    AngularMaterialExternalModules
   ],
   providers: [],
   bootstrap: [AppComponent]
